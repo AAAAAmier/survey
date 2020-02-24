@@ -1,11 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
     <!--  Start : Your code should be within this block -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="50dp"
+        android:paddingTop="40dp"
+        android:paddingLeft="10dp"
+        android:text="THANK YOU"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:paddingHorizontal="45dp"
+        android:text="FOR YOUR ANSWERS!"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="307dp"
+        app:srcCompat="@drawable/end" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="355dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="28dp"
+        android:background="@color/colorPrimary"
+        android:text="Next"
+        android:textSize="17sp" />
 
     <!-- END    : Your code should be within this block -->
 

@@ -5,7 +5,72 @@
     android:orientation="vertical">
 
     <!--  Start : Your code should be within this block -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:paddingLeft="10dp"
+        android:text="Question 9"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:paddingHorizontal="50dp"
+        android:text="What characteristic do you think is most important to evaluate a phone?"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="264dp">
+
+        <RadioButton
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp"
+            android:checked="true"
+            android:text="Appearance"
+            android:textSize="17sp" />
+
+        <RadioButton
+            android:id="@+id/checkBox2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp"
+            android:text="Price"
+            android:textSize="17sp" />
+
+        <RadioButton
+            android:id="@+id/checkBox3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp"
+            android:text="Performance"
+            android:textSize="17sp" />
+
+        <RadioButton
+            android:id="@+id/checkBox4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp"
+            android:text="Others"
+            android:textSize="17sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="355dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="28dp"
+        android:background="@color/colorPrimary"
+        android:text="Next"
+        android:textSize="17sp" />
 
     <!-- END    : Your code should be within this block -->
 

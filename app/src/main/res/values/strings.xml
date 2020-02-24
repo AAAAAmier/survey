@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Survey</string>
+    <string name="Q">30sp</string>
+    <string name="L">17sp</string>
 </resources>
