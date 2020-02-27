@@ -107,7 +107,7 @@
         android:textSize="17sp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button1"
         android:layout_width="355dp"
         android:layout_height="67dp"
         android:layout_alignParentStart="true"
